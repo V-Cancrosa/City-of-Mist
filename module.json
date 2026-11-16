@@ -1,0 +1,40 @@
+{
+  "id": "city-of-mist-custom-hub",
+  "title": "Miasto Mgły - Dodatki i Zasoby Kampanii",
+  "description": "Własne style, automatyzacje oraz zasoby do systemu City of Mist hostowane przez GitHub Pages.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "14"
+  },
+  "authors": [
+    {
+      "name": "V_Cancrosa"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "city-of-mist",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.js"
+  ],
+  "styles": [
+    "styles/custom-noir.css"
+  ],
+  "languages": [
+    {
+      "lang": "pl",
+      "name": "Polski",
+      "path": "lang/pl.json"
+    }
+  ],
+  "url": "https://v-cancrosa.github.io/City-of-Mist/",
+  "manifest": "https://v-cancrosa.github.io/City-of-Mist/module.json",
+  "download": "https://github.com/V-Cancrosa/City-of-Mist/archive/refs/heads/main.zip"
+}
